@@ -6,6 +6,8 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "start": "tsx ./src/server.ts",
+    "build": "tsc",
     "dev": "tsx watch --clear-screen=false --ignore 'node_modules/**' --inspect ./src/server.ts",
     "build:server": "tsx ./src/server.ts",
     "typecheck": "tsc",
