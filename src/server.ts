@@ -3,9 +3,9 @@ import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
 
-import '#env.ts';
-import { errorHandler } from '#src/middlewares/handleError.ts';
-import routes from '#src/routes/index.ts';
+import '@/env.ts';
+import { errorHandler } from '@/src/middlewares/handleError.ts';
+import routes from '@/src/routes/index.ts';
 
 const appName = 'moncy-express-ts-starter';
 const preferredPortNumber = 9500;
