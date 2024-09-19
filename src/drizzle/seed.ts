@@ -1,4 +1,4 @@
-import '@/env.ts';
+import '../../env.ts';
 import { db } from '@/src/drizzle/index.ts';
 
 async function seed() {

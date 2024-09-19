@@ -3,7 +3,7 @@ import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
 
-import '@/env.ts';
+import '../env.ts';
 import { errorHandler } from '@/src/middlewares/handleError.ts';
 import routes from '@/src/routes/index.ts';
 
